@@ -1,38 +1,51 @@
-.App {
+h1{
+  display: inline;
+  font-weight: 200;
+}
+h3{ 
+  margin:0 20px;
+  float:right;
+}
+
+.listContainer{
+  width:80%;
+  margin:auto;
+ 
+}
+.title{
+  font-size: 35px;
+  font-weight: 800;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.friendList{
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 20px;
+  width:50%;
+  min-width: 300px;
+  margin:auto;
+  padding:20px;
+  background-color: rgba(142, 212, 245, 0.479);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.friendItem{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding:10px;
+  margin:20px auto;
+  min-height: 100px;
+  background-color: aliceblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.petList{
+  margin-left:30px;
+  margin-top:10px;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.petItem{
+  background: linear-gradient(to right, rgba(138, 243, 217, 0.692) 30%,rgba(255, 255, 255, 0) 100%);
+  border-bottom: 1px dotted black;
+  width:fit-content;
+  min-width:200px;
 }
